@@ -146,3 +146,14 @@
 ・npm run dev時にdigital envelope routinesのエラー
 →export NODE_OPTIONS=--openssl-legacy-providerを打って解決。おそらくM1 proに多い現象！？
 ・httpメソッドでルーティングのgetとpostの認識の違い。
+
+# 2021/12/7
+## 当日対応したタスク
+・新規登録時にregisterにage,occupation,profile_imageをプルダウンにし保存
+・会員情報の確認画面の実装
+## 明日対応するタスク (週末は、来週のターゲット)
+・会員情報の編集をして上書き
+・commentボタンを押下の実装
+・Vertically centeredでコメントをModal上から出す
+## 共有事項 (エラーや、その他、感じたこと、些細な進捗共有など)
+・php artisan config:cache -> php artisan optimize:clear
